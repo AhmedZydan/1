@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head><style> body { background-color:black;
+font-family:arial;
+font-size:60px;
+color:white;}
+#Yes {color:white;
+background-color:green;
+border-radius:15px;
+padding:10px;
+border:none;}
+
+#No {color:black;
+background-color:crimson;
+border-radius:15px;
+padding:10px;
+border:none;}</style></head>
+<body><h1> Dairy.</h1>
+<p class="parao"> I Got A Great Grade Today But<br> Cause Dont Dont Have Any Fellings So I Dont Care A all
+<br>i Just Wanted To Flix On The Girl in My Class&nbsp; Looks Fair...<br>
+i Am Just Horrible So I Wanted To Do Something For My <strong>Jerk Parents</strong>
+<br>
+<b>
+<br>
+I Think Today i Look Beutiful On My Brothers Sweaters Dont You Think So ?<br>
+Here Please Vote</p><br>
+&nbsp; &nbsp; &nbsp;   &nbsp;  <button id="Yes" onclick="Yes()">Yes</button>  &nbsp; &nbsp; <button id="No" onclick="No()">No</button><br>
+<p id="para">2 Yeses</p>
+<script> var counter= 2;
+function Yes(){
+counter= counter + 1;
+document.getElementById(para).innerHTML = counter + "Yeses";}
+
+function No(){ counter= counter - 1;
+
+document.getElementById(para).innerHTML = counter + "Yeses";}
+</script>
+</body>
+</html>
